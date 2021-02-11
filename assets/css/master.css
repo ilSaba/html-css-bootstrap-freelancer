@@ -1,11 +1,15 @@
+/* UTILITY */
 body{
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
+
+/* NAV */
 
 nav{
   text-transform: uppercase;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 1%;
+  padding-bottom: 1%;
   font-weight: bold;
 }
 
@@ -31,4 +35,43 @@ nav{
 
 .navbar-default .navbar-nav>li>a:hover{
   color: #1ABC9C;
+}
+
+/* JUMBO */
+
+.bg-green{
+  background-color: #1ABC9C;
+}
+
+.avatar{
+  padding-top: 200px;
+  padding-bottom: 25px;
+  width: 275px;
+}
+
+h1{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+
+/* .line{
+  margin: 20px 0;
+} */
+
+.line:before, .line:after {
+  display: inline-block;
+  content: "";
+  width: 75px;
+  border-radius: 5px;
+  vertical-align: middle;
+  margin: 20px 10px;
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+
+.fa-star {
+  font-size: 25px;
+  vertical-align: middle;
 }
