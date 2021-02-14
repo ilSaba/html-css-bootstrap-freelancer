@@ -13,12 +13,31 @@ nav{
   font-weight: bold;
 }
 
+li{
+  font-size: 16px;
+}
+
+#hamburgher-menu{
+  font-size: 13px;
+}
+
+.fa-bars{
+  font-size: 13px;
+}
+
+.navbar-toggle{
+  padding: 11px 15px;
+  background-color: #1ABC9C;
+  border: none;
+  border-radius: 8px;
+}
+
 .navbar-default{
   background-color: #2C3E50;
 }
 
 .navbar-brand{
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .navbar-default .navbar-brand{
@@ -49,29 +68,294 @@ nav{
   width: 275px;
 }
 
-h1{
+#title{
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 60px;
+  font-size: 64px;
 }
 
 
-/* .line{
-  margin: 20px 0;
-} */
+h3{
+  padding-bottom: 80px;
+}
 
-.line:before, .line:after {
+
+.line-1:before, .line-1:after{
   display: inline-block;
   content: "";
-  width: 75px;
+  width: 100px;
   border-radius: 5px;
   vertical-align: middle;
   margin: 20px 10px;
   border: 2px solid #fff;
-  background-color: #fff;
 }
 
 .fa-star {
   font-size: 25px;
   vertical-align: middle;
+}
+
+/* SECTION GRILL */
+
+#h1-section{
+  color: #2C3E50;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 48px;
+  padding-top: 60px;
+}
+
+.line-2:before, .line-2:after{
+  display: inline-block;
+  content: "";
+  width: 100px;
+  border-radius: 5px;
+  vertical-align: middle;
+  margin: 20px 10px;
+  border: 2px solid #2C3E50;
+}
+
+.color-star{
+  font-size: 25px;
+  vertical-align: middle;
+  color: #2C3E50;
+  margin-bottom: 20px;
+}
+
+/* GRILL IMAGE */
+
+.img-thumbnail{
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.margin-b-img{
+  margin-bottom: 70px;
+}
+
+/* ABOUT */
+#about{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 45px;
+  padding-top: 70px;
+}
+
+#parag{
+  padding-top: 30px;
+  font-size: 20px;
+  width: 300px;
+  float: right;
+}
+
+#parag-2{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 20px;
+  width: 300px;
+  float: left;
+}
+
+.my_style{
+  background-color: #1ABC9C;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px 20px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  margin-bottom: 80px;
+}
+
+.btn-default{
+  transition: 0.5s;
+}
+
+.my_style:hover{
+  background-color: #fff;
+  border: 2px solid #fff;
+  transition: 0.5s;
+}
+
+.fa-download{
+  padding-right: 10px;
+}
+
+/* FORM */
+
+.form-control{
+  border-radius: 0;
+  font-size: 25px;
+  padding: 50px 0;
+  margin-left: 200px;
+  border: none;
+  background-image: none;
+  box-shadow: none;
+  border-bottom: 1px solid #E9ECEF;
+  width: 712px;
+}
+
+.form-control:focus{
+  box-shadow: none;
+}
+
+.btn-lg{
+  margin-top: 25px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  padding: 20px 35px;
+  background-color: #1ABC9C;
+  color: #fff;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-lg:hover{
+  background-color: grey;
+  transition: 0.5s;
+}
+
+/* FOOTER */
+.bg-blue{
+  background-color: #2C3E50;
+}
+
+h4{
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+p{
+  font-size: 20px;
+  padding-bottom: 70px;
+}
+
+.my_style-social{
+  font-size: 20px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  padding: 17px 17px;
+  margin-right: 10px;
+}
+
+.fa-facebook-f{
+  padding: none;
+  padding: 17px 21px;
+}
+
+
+/* Copyright © */
+
+.bg-darkblue{
+  background-color: #1A252F;
+}
+
+h6{
+  padding: 25px 0;
+}
+
+/* MEDIA query TABLET*/
+
+@media only screen and (max-width: 768px){
+  #title{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 44px;
+  }
+
+  .navbar-brand{
+    font-size: 20px;
+  }
+
+  #h1-section{
+    color: #2C3E50;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 36px;
+    padding-top: 50px;
+  }
+
+  #parag{
+    padding-bottom: 0;
+    float: none;
+    width: 100%;
+  }
+
+  #parag-2{
+    float: none;
+    width: 100%;
+  }
+
+  .form-control{
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .btn-lg{
+    margin-left: 0;
+  }
+
+  p{
+    padding-bottom: 0;
+  }
+
+  h4{
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+}
+
+/* MEDIA query SMARTPHONES*/
+
+
+@media only screen and (max-width: 767px) {
+
+  .navbar-brand{
+    font-size: 20px;
+  }
+
+  #title{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 44px;
+  }
+
+  #h1-section{
+    color: #2C3E50;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 36px;
+    padding-top: 50px;
+  }
+
+  #parag{
+    padding-bottom: 0;
+    float: none;
+    width: 100%;
+  }
+
+  #parag-2{
+    float: none;
+    width: 100%;
+  }
+
+  .form-control{
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .btn-lg{
+    margin-left: 0;
+  }
+
+  p{
+    padding-bottom: 0;
+  }
+
+  h4{
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
 }
